@@ -1,0 +1,55 @@
+body {
+  height: 100%;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#app{
+  cursor: pointer;
+  text-align: center;
+  padding: .5rem .5rem;
+  border: solid 3px rgb(18, 17, 17);
+  color: #777;
+  font-size: 1.rem;
+}
+
+add-button {
+  cursor: pointer;
+  border: solid 1px hsl(210, 96%, 47%);
+  border-radius: 5px;
+  background-color:hsl(210, 73%, 77%);
+  padding: .8rem 3rem;
+  font-size: 1.3.rem;
+}
+
+clear-button {  
+  cursor: pointer;
+  border: solid 1px hsl(210, 96%, 47%);
+  border-radius: 5px;
+  background-color:hsl(144, 73%, 77%);
+  padding: .8rem 3rem;
+  font-size: 1.3.rem;
+}
+
+add-button:active{
+  background-color: hsl(189, 57%, 35%);
+}
+
+counter-number{
+  border: solid 1px rgb(156, 156, 33);
+  font-size: 1.3rem;
+  padding: 1.4rem 1rem;
+}
+
+keep-alive{
+  width: 2rem;
+  height: 2rem;
+  background-color: hsl(353, 86%, 45%)
+}
+keep-alive.on{
+  background-color:rgb(33, 156, 37);
+}
